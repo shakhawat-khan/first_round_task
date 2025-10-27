@@ -4,8 +4,6 @@ import 'dart:io';
 import 'package:first_round_task/main.dart';
 import 'package:first_round_task/src/utils/custom_talker_log.dart';
 import 'package:first_round_task/src/utils/log_message.dart';
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:http/http.dart' as http;
 import 'package:http_interceptor/http/intercepted_client.dart';
 

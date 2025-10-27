@@ -1,15 +1,10 @@
 import 'dart:convert';
-import 'package:first_round_task/main.dart';
 import 'package:first_round_task/src/module/home_page/model/home_page_model.dart';
 import 'package:first_round_task/src/services/api_services.dart';
 import 'package:first_round_task/src/services/api_urls.dart';
 import 'package:first_round_task/src/utils/log_message.dart';
 
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:http/http.dart';
 
-import 'dart:convert';
 
 class ApiException implements Exception {
   final int code;

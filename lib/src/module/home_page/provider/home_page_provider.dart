@@ -1,16 +1,10 @@
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:first_round_task/src/module/home_page/model/home_page_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../api/home_page_api.dart';
-import 'dart:async';
-import 'dart:convert';
 
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
-import '../api/home_page_api.dart';
 
 final homePageNotifierProvider =
     AsyncNotifierProvider<HomePageNotifier, QuoteModel>(
@@ -62,7 +56,7 @@ class HomePageNotifier extends AsyncNotifier<QuoteModel> {
           limit: data.limit,
         );
       }
-    } on ApiException catch (e) {
+    } on ApiException {
       // Pass error to UI
       rethrow;
     } catch (e) {

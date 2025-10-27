@@ -43,6 +43,7 @@ dependencies:
   http_interceptor: ^2.0.0
   talker_riverpod_logger: ^5.0.2
 
+  path: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
