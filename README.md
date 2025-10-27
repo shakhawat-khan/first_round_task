@@ -1,16 +1,9 @@
 # first_round_task
 
-A new Flutter project.
+the api url is - https://dummyjson.com/quotes
 
-## Getting Started
+the time out is 60 sec .
 
-This project is a starting point for a Flutter application.
+flutter version 3.35.0
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+no login implementation . 
